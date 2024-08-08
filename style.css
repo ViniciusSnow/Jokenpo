@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+p {
+    letter-spacing: 1px;
+    font-size: 32px;
+    color: black;
+}
+
+body {
+
+    background: url("https://fastly.picsum.photos/id/1057/1600/900.jpg?hmac=xokSJNcFP--xNUiU1mgSBwq3vU0VpYdHZgEVotALgQg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-size: 70px;
+    color: black;
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    padding: 60px;
+    border: 6px solid;
+    color: #000000;
+    background-color: #ffffff;
+    flex-direction: column;
+}
+
+.game {
+
+    margin: 27px 0px 27px 0;
+    display: flex;
+    gap: 15px;
+
+
+}
+
+button {
+    background-color: blue;
+    font-size: 70px;
+    height: 140px;
+    width: 140px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+    transition: ease-in-out 1s;
+    box-shadow: #000000;
+    font-size: 90px;
+    height: 140px;
+    width: 140px;
+}
+
+button:active {
+    opacity: 0.9;
+    background-color: forestgreen;
+
+}
+
+.positivo {
+color:green;
+   
+}
+.negativo{
+color:red;
+
+}
